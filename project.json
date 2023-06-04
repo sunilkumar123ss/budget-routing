@@ -1,0 +1,11 @@
+{
+  "slug": "budget-routing",
+  "title": "Budget routing simulator",
+  "description": "Simulate model selection using configured context limits, capabilities, latency estimates and token prices while reserving request costs against a shared batch budget.",
+  "category": "evaluation",
+  "demo_args": [
+    "--input",
+    "example.json"
+  ],
+  "expected_exit": 0
+}
