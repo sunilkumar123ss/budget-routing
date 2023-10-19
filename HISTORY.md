@@ -4,7 +4,7 @@ This reference implementation and all of the following milestone commits were pr
 
 **Every recorded author and committer date in this timeline is synthetic. These dates are not evidence that the code was written, tested, deployed, or used professionally in the past.**
 
-This snapshot is milestone 1 of 13. It is an incomplete tutorial stage; source, fixtures, tests, the CLI, and automation are introduced progressively.
+This snapshot is milestone 2 of 13. It is an incomplete tutorial stage; source, fixtures, tests, the CLI, and automation are introduced progressively.
 
 The progression decomposes already-completed October 2026 code into meaningful additions. It is not recovered original development history. Publication time is separate from the synthetic Git timestamps.
 
@@ -13,7 +13,7 @@ The progression decomposes already-completed October 2026 code into meaningful a
 | Stage | Synthetic date | Change |
 | --- | --- | --- |
 | 1 | 2023-06-04T13:02:11+05:30 | Define package metadata and local artifact exclusions (present) |
-| 2 | 2023-10-19T14:17:18+05:30 | Add synthetic input fixtures and reference data (later stage) |
+| 2 | 2023-10-19T14:17:18+05:30 | Add synthetic input fixtures and reference data (present) |
 | 3 | 2024-03-30T12:53:28+05:30 | Implement amount (later stage) |
 | 4 | 2024-08-03T12:07:47+05:30 | Implement integer (later stage) |
 | 5 | 2024-10-16T11:40:07+05:30 | Implement route (later stage) |
