@@ -15,3 +15,9 @@ def amount(value):
         raise ValueError("money values must be finite and nonnegative")
     return result
 
+
+def integer(value, name, minimum=0):
+    if type(value) is not int or value < minimum:
+        raise ValueError(f"{name} must be an integer >= {minimum}")
+    return value
+
