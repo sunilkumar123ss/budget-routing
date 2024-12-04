@@ -4,7 +4,7 @@ This reference implementation and all of the following milestone commits were pr
 
 **Every recorded author and committer date in this timeline is synthetic. These dates are not evidence that the code was written, tested, deployed, or used professionally in the past.**
 
-This snapshot is milestone 5 of 13. It is an incomplete tutorial stage; source, fixtures, tests, the CLI, and automation are introduced progressively.
+This snapshot is milestone 6 of 13. It is an incomplete tutorial stage; source, fixtures, tests, the CLI, and automation are introduced progressively.
 
 The progression decomposes already-completed October 2026 code into meaningful additions. It is not recovered original development history. Publication time is separate from the synthetic Git timestamps.
 
@@ -17,7 +17,7 @@ The progression decomposes already-completed October 2026 code into meaningful a
 | 3 | 2024-03-30T12:53:28+05:30 | Implement amount (present) |
 | 4 | 2024-08-03T12:07:47+05:30 | Implement integer (present) |
 | 5 | 2024-10-16T11:40:07+05:30 | Implement route (present) |
-| 6 | 2024-12-04T11:22:20+05:30 | Expose the command-line demonstration and input handling (later stage) |
+| 6 | 2024-12-04T11:22:20+05:30 | Expose the command-line demonstration and input handling (present) |
 | 7 | 2025-03-18T17:27:17+05:30 | Test cheapest and capability selection (later stage) |
 | 8 | 2025-05-23T12:38:44+05:30 | Test budget reservations and boundary (later stage) |
 | 9 | 2025-08-21T17:06:30+05:30 | Test context and latency reasons (later stage) |
