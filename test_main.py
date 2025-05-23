@@ -17,3 +17,8 @@ class RouterTests(unittest.TestCase):
         result = route(MODELS, [request(), request("b", required_capabilities=["tools"])], "1")
         self.assertEqual([r["model"] for r in result["decisions"]], ["small", "large"])
 
+    def test_budget_reservations_and_boundary(self):
+        result = route(MODELS, [request(), request("b")], "0.00007")
+        self.assertEqual(result["decisions"][0]["status"], "routed")
+        self.assertEqual(result["decisions"][1]["status"], "rejected")
+
