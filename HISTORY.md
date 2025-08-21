@@ -4,7 +4,7 @@ This reference implementation and all of the following milestone commits were pr
 
 **Every recorded author and committer date in this timeline is synthetic. These dates are not evidence that the code was written, tested, deployed, or used professionally in the past.**
 
-This snapshot is milestone 8 of 13. It is an incomplete tutorial stage; source, fixtures, tests, the CLI, and automation are introduced progressively.
+This snapshot is milestone 9 of 13. It is an incomplete tutorial stage; source, fixtures, tests, the CLI, and automation are introduced progressively.
 
 The progression decomposes already-completed October 2026 code into meaningful additions. It is not recovered original development history. Publication time is separate from the synthetic Git timestamps.
 
@@ -20,7 +20,7 @@ The progression decomposes already-completed October 2026 code into meaningful a
 | 6 | 2024-12-04T11:22:20+05:30 | Expose the command-line demonstration and input handling (present) |
 | 7 | 2025-03-18T17:27:17+05:30 | Test cheapest and capability selection (present) |
 | 8 | 2025-05-23T12:38:44+05:30 | Test budget reservations and boundary (present) |
-| 9 | 2025-08-21T17:06:30+05:30 | Test context and latency reasons (later stage) |
+| 9 | 2025-08-21T17:06:30+05:30 | Test context and latency reasons (present) |
 | 10 | 2025-09-14T18:36:32+05:30 | Test invalid tokens and duplicates (later stage) |
 | 11 | 2025-11-04T18:35:51+05:30 | Add one-command test, demonstration and CLI verification (later stage) |
 | 12 | 2025-12-29T15:41:05+05:30 | Run verification on the supported Python CI matrix (later stage) |

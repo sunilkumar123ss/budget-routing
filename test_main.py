@@ -22,3 +22,9 @@ class RouterTests(unittest.TestCase):
         self.assertEqual(result["decisions"][0]["status"], "routed")
         self.assertEqual(result["decisions"][1]["status"], "rejected")
 
+    def test_context_and_latency_reasons(self):
+        result = route(MODELS, [request(input_tokens=100, max_latency_ms=30)], 1)
+        excluded = result["decisions"][0]["excluded_models"]
+        self.assertIn("context_capacity", excluded["small"])
+        self.assertIn("configured_latency", excluded["large"])
+
