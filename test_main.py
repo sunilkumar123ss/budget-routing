@@ -28,3 +28,12 @@ class RouterTests(unittest.TestCase):
         self.assertIn("context_capacity", excluded["small"])
         self.assertIn("configured_latency", excluded["large"])
 
+    def test_invalid_tokens_and_duplicates(self):
+        with self.assertRaises(ValueError):
+            route(MODELS, [request(input_tokens=-1)], 1)
+        with self.assertRaises(ValueError):
+            route(MODELS, [request(), request()], 1)
+
+
+if __name__ == "__main__":
+    unittest.main()
